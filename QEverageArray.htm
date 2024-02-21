@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find avarege</title>
+</head>
+
+<body>
+    <script>
+        var marks = [45, 60, 75, 51, 82, 57, 72];
+        var totalmarks = marks.reduce((p, c) => {
+            return p + c
+        })
+        var avarege = totalmarks / marks.length
+
+        console.log(avarege);
+    </script>
+</body>
+
+</html>
